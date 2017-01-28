@@ -1,6 +1,6 @@
 //  Move this to another page, create a "view" page for pages, and look into
 //  requirejs.
-var breadcrumb = function(){
+function Breadcrumb(){
     var pagename = location.pathname;
     this.parse_pagename = function(){
         //regex for pagename.
@@ -13,5 +13,5 @@ var breadcrumb = function(){
     }
 }
 
-var page_breadcrumb = new breadcrumb();
+var page_breadcrumb = new Breadcrumb();
 window.onload = page_breadcrumb.compile_page_name();
