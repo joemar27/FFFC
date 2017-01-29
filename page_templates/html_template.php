@@ -85,4 +85,17 @@ class StaticHtml{
     }
 
 }
+
+class LoginPage{
+
+    public function login_html_head(){
+        $css_info = "
+        <link rel='stylesheet' type='text/css' href='css/auth.css'>
+        <script src='js/auth.js'></script>
+        ";
+        return $css_info;
+    }
+
+}
+
 ?>

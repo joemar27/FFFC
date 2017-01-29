@@ -1,8 +1,16 @@
-.login_container{
+.login_container {
     border-style: solid;
     border: black;
     border-radius: 3px;
     height: 250px;
     width: 100%;
     background-color: blue;
+}
+
+#username {
+    width: 80%;
+}
+
+#user_pass {
+    width: 80%;
 }
