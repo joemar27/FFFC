@@ -18,7 +18,7 @@
                 <div class="col-md-12">
                     <div class="col-md-4 col-md-offset-4">
                         <div class="login_container">
-                            <form>
+                            <form id="login_submit">
                                 <div class="form-group">
                                     <input type="text" class="form-control"
                                         id="username" placeholder="username">
@@ -27,6 +27,10 @@
                                     <input type="password" class="form-control"
                                         id="user_pass" placeholder="password">
                                 </div>
+                                <button type="button" class="btn btn-default">
+                                    Cancel</button>
+                                <button type="submit" class="btn btn-primary">
+                                    Login</button>
                             <form>
                         </div>
                     </div>
