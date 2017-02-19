@@ -21,9 +21,31 @@
     height: 700px;
 }
 .main-container{
-    margin-top: 10px;
+
 }
 .main-breadcrumb{
     background-color: #fff;
     border-radius: 0px;
+}
+.audio_panel{
+    background-color: orange;
+    height: 200px;
+}
+.author_row{
+    background-color: green;
+    height: 350px;
+}
+.contributers{
+    border-color: black;
+    border-style: solid;
+    background-color: blue;
+    height: 350px;
+}
+.footer_container{
+    background-color: gray;
+}
+.info_footer{
+    border-color: black;
+    border-style: solid;
+    height: 250px;
 }

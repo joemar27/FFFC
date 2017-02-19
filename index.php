@@ -1,6 +1,8 @@
 <?php include "page_templates/html_template.php";
     $head = new StaticHtml();
     $head_result = $head->main_html_head();
+    $AudioConsole = new AudioConsole();
+    $audio_panel = $AudioConsole->audio_html_panel();
     echo $head_result;
 ?>
 <body>
@@ -13,6 +15,7 @@
     <?php
         $breadcrumb = $head->main_breadcrumb();
         echo $breadcrumb;
+        echo $audio_panel
     ?>
     <div id="content-area">
         <div class="container-fluid main-container">
@@ -31,6 +34,10 @@
             </div>
         </div>
     </div>
+    <?php
+        $contributers = $head->main_contrib_details();
+        echo $contributers;
+    ?>
     <?php
         $footer = $head->main_footer();
         echo $footer;

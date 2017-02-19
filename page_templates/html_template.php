@@ -93,9 +93,24 @@ class StaticHtml{
 
     public function main_footer(){
         $footer = "
-            <footer class='text-center'>
-                <p>Foot Five Football Club &#45; Official Website</p>
-            </footer>
+            <div class='container-fluid footer_container'>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-12 col-lg-12'>
+                        <div class='row'>
+                            <div class='col-sm-4 col-md-4 col-lg-4 info_footer'>
+                            </div>
+                            <div class='col-sm-4 col-md-4 col-lg-4 info_footer'>
+                            </div>
+                            <div class='col-sm-4 col-md-4 col-lg-4 info_footer'>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class='text-center'>
+                        <p>Foot Five Football Club &#45; Official Website
+                        </p>
+                    </footer>
+                </div>
+            </div>
         ";
         return $footer;
     }
@@ -107,6 +122,21 @@ class StaticHtml{
         return $page_footer;
     }
 
+}
+
+class AudioConsole{
+    public function audio_html_panel(){
+        $audio_panel = "
+            <div class='container-fluid'>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-12 col-lg-12 audio_panel'
+                    id='podcast_audio'>
+                    </div>
+                </div>
+            </div>
+        ";
+        return $audio_panel;
+    }
 }
 
 class LoginPage{
