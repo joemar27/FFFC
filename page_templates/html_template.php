@@ -58,7 +58,7 @@ class StaticHtml{
         $main_crumb = "
             <div class='container-fluid'>
                 <div class='row'>
-                    <div class='col-md-12'>
+                    <div class='col-sm-12 col-md-12 col-lg-12'>
                         <ol class='breadcrumb main-breadcrumb' id='page_crumb'>
                         </ol>
                     </div>
@@ -66,6 +66,29 @@ class StaticHtml{
             </div>
         ";
         return $main_crumb;
+    }
+
+    public function main_contrib_details(){
+        $main_contribs = "
+            <div class='container-fluid'>
+                <div class='row'>
+                    <div class='col-sm-12 col-md-12 col-lg-12'>
+                        <div class='row'>
+                            <div class='col-sm-4 col-md-4
+                            col-lg-4 contributers'>
+                            </div>
+                            <div class='col-sm-4 col-md-4
+                            col-lg-4 contributers'>
+                            </div>
+                            <div class='col-sm-4 col-md-4
+                            col-lg-4 contributers'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        ";
+        return $main_contribs;
     }
 
     public function main_footer(){

@@ -15,8 +15,8 @@
     <div id="content-area">
         <div class="container-fluid main-container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="col-md-4 col-md-offset-4">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-md-offset-4">
                         <div class="login_container">
                             <form id="login_submit">
                                 <div class="form-group">

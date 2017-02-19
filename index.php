@@ -17,14 +17,16 @@
     <div id="content-area">
         <div class="container-fluid main-container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-1" id="article_column">
+                <div class="col-sm-8 col-md-8 col-lg-8
+                col-md-offset-1" id="article_column">
                     <div class="featured-article">
                         <h1>SKC Featured Article</h1>
                         <p>DateTime</p>
                         <p>By Author</p>
                     </div>
                 </div>
-                <div class="col-md-2" id="article_side_column">
+                <div class="col-sm-2 col-md-2 col-lg-2"
+                id="article_side_column">
                 </div>
             </div>
         </div>
