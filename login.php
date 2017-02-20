@@ -1,14 +1,16 @@
-<?php 
+<?php
     include "page_templates/html_template.php";
     include "page_templates/auth_login.php";
 
     $head = new StaticHtml();
+    $loginhead = new LoginPage();
+
     $head_result = $head->main_html_head();
-    echo $head_result;
+    $login_result = $loginhead->login_html_head();
+    $footer = $head->main_footer();
 ?>
 <?php
-    $loginhead = new LoginPage();
-    $login_result = $loginhead->login_html_head();
+    echo $head_result;
     echo $login_result;
 ?>
 <body>
@@ -39,7 +41,6 @@
         </div>
     </div>
     <?php
-        $footer = $head->main_footer();
         echo $footer;
     ?>
 </body>

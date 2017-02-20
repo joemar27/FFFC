@@ -1,21 +1,28 @@
 <?php include "page_templates/html_template.php";
+
     $head = new StaticHtml();
-    $head_result = $head->main_html_head();
     $AudioConsole = new AudioConsole();
+
+    $head_result = $head->main_html_head();
+    $nav_bar = $head->main_navbar();
+    $breadcrumb = $head->main_breadcrumb();
     $audio_panel = $AudioConsole->audio_html_panel();
+    $contributers = $head->main_contrib_details();
+    $footer = $head->main_footer();
+    $html_footer = $head->html_footer();
+?>
+<?php
     echo $head_result;
 ?>
 <body>
     <?php
-        $nav_bar = $head->main_navbar();
         echo $nav_bar;
     ?>
     <img src="images/header_sm.jpg" alt="US Women, Childrens Mercy Park"
         id="home_image">
     <?php
-        $breadcrumb = $head->main_breadcrumb();
         echo $breadcrumb;
-        echo $audio_panel
+        echo $audio_panel;
     ?>
     <div id="content-area">
         <div class="container-fluid main-container">
@@ -35,15 +42,12 @@
         </div>
     </div>
     <?php
-        $contributers = $head->main_contrib_details();
         echo $contributers;
     ?>
     <?php
-        $footer = $head->main_footer();
         echo $footer;
     ?>
 </body>
 <?php
-    $html_footer = $head->html_footer();
     echo $html_footer;
 ?>
