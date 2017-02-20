@@ -41,8 +41,6 @@ class StaticHtml{
                     <div class='collapse navbar-collapse' id='collapsed-menu'>
                         <ul class='nav navbar-nav'>
                             <li><a href='#'>Archive</a></li>
-                            <li><a href='#'>About</a></li>
-                            <li><a href='#'>Contact</a></li>
                         </ul>
                         <ul class='nav navbar-nav navbar-right'>
                             <li><a href='login.php'>Login</a></li>
