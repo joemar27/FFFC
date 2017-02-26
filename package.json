@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/joemar27/FFFC/issues"
   },
-  "homepage": "https://github.com/joemar27/FFFC#readme"
+  "homepage": "https://github.com/joemar27/FFFC#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
 }
